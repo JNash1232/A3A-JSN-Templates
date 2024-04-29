@@ -1,3 +1,3 @@
-name = "A3 Antistasi Templates (CUP/RHS/FIR)";
+name = "A3AE - JSN Antistasi Templates";
 author = "Jason1232";
-tooltip = "A3 Antistasi Templates (CUP/RHS/FIR)";
+tooltip = "A3 Antistasi Templates";
