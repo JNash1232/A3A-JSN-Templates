@@ -135,12 +135,8 @@ _militiaLoadoutData set ["sniHats", ["H_Booniehat_oli"]];
 //////////////////////////
 
 _crewLoadoutData set ["uniforms", ["rhs_uniform_vkpo"]];
-_crewLoadoutData set ["vests", ["rhs_6b45_light"]];
-_crewLoadoutData set ["helmets", ["rhs_6b48"]];
 
 _pilotLoadoutData set ["uniforms", ["rhs_uniform_df15"]];
-_pilotLoadoutData set ["vests", ["rhs_vest_commander"]];
-_pilotLoadoutData set ["helmets", ["rhs_zsh7a_mike_alt", "rhs_zsh7a_mike", "rhs_zsh7a_mike_green", "rhs_zsh7a_mike_green_alt"]];
 
 
 

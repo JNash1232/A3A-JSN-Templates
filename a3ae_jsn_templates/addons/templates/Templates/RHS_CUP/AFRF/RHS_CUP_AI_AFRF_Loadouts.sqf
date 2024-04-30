@@ -362,10 +362,14 @@ _militiaLoadoutData set ["sniperRifles", ["rhs_weap_m38"]];
 //    Misc Loadouts     //
 //////////////////////////
 
+_crewLoadoutData set ["vests", ["rhs_6b45_light"]];
+_crewLoadoutData set ["helmets", ["rhs_6b48"]];
 _crewLoadoutData set ["carbines", [
     ["rhs_weap_aks74u", "rhs_acc_dtk", "", "", ["rhs_30Rnd_545x39_7N10_AK"], [], ""]
 ]];
 
+_pilotLoadoutData set ["vests", ["rhs_vest_commander"]];
+_pilotLoadoutData set ["helmets", ["rhs_zsh7a_mike_alt", "rhs_zsh7a_mike", "rhs_zsh7a_mike_green", "rhs_zsh7a_mike_green_alt"]];
 _pilotLoadoutData set ["carbines", [
     ["rhs_weap_aks74u", "rhs_acc_dtk", "", "", ["rhs_30Rnd_545x39_7N10_AK"], [], ""]
 ]];

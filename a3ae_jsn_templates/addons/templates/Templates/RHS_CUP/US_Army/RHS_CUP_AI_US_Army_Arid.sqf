@@ -142,15 +142,7 @@ _militiaLoadoutData set ["sniHats", ["rhs_booniehat2_marpatd"]];
 //////////////////////////
 //    Misc Loadouts     //
 //////////////////////////
-
-_crewLoadoutData set ["uniforms", ["rhs_uniform_cu_ocp_1stcav"]];
-_crewLoadoutData set ["vests", ["rhsusf_spcs_ocp_crewman"]];
-_crewLoadoutData set ["helmets", ["rhsusf_cvc_green_helmet", "rhsusf_cvc_green_alt_helmet", "rhsusf_cvc_helmet", "rhsusf_cvc_alt_helmet"]];
-
-_pilotLoadoutData set ["uniforms", ["CUP_U_B_USArmy_PilotOverall"]];
-_pilotLoadoutData set ["vests", ["rhsusf_spcs_ocp"]];
-_pilotLoadoutData set ["helmets", ["rhsusf_hgu56p_black", "rhsusf_hgu56p_mask_black", "rhsusf_hgu56p_visor_black", "rhsusf_hgu56p_visor_mask_black"]];
-
+// no miscs here, they are shared
 
 
 // import the shared unit definitions
