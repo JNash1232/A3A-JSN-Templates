@@ -36,7 +36,7 @@
 ["vehiclesGunBoats", ["rhsusf_mkvsoc", "CUP_B_RHIB2Turret_USMC"]] call _fnc_saveToTemplate;
 ["vehiclesAmphibious", ["rhsusf_m113d_usarmy", "rhsusf_m113d_usarmy_M240", "rhsusf_m113d_usarmy_MK19"]] call _fnc_saveToTemplate;
 
-["vehiclesPlanesCAS", ["FIR_A10C", "FIR_A10A"]] call _fnc_saveToTemplate;
+["vehiclesPlanesCAS", ["FIR_A10C"]] call _fnc_saveToTemplate;
 ["vehiclesPlanesAA", ["FIR_F15A", "FIR_F15E", "FIR_F16C", "FIR_F22", "FIR_F18C"]] call _fnc_saveToTemplate;
 ["vehiclesPlanesTransport", ["FIR_C130J"]] call _fnc_saveToTemplate;
 
