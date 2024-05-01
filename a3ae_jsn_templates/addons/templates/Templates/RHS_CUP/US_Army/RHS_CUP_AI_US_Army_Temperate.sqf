@@ -40,10 +40,10 @@
 ["vehiclesPlanesAA", ["FIR_F15A", "FIR_F15E", "FIR_F16C", "FIR_F22", "FIR_F18C"]] call _fnc_saveToTemplate;
 ["vehiclesPlanesTransport", ["FIR_C130J"]] call _fnc_saveToTemplate;
 
-["vehiclesHelisLight", ["CUP_B_MH6M_USA", "CUP_B_MH6J_USA"]] call _fnc_saveToTemplate;
-["vehiclesHelisTransport", ["CUP_B_MH60L_DAP_2x_US", "CUP_B_MH60L_DAP_4x_US", "CUP_B_UH60M_US", "CUP_B_UH60M_Unarmed_US", "CUP_B_MH47E_USA"]] call _fnc_saveToTemplate;
-["vehiclesHelisLightAttack", ["CUP_B_AH6M_USA", "CUP_B_AH6J_USA", "CUP_B_MH60L_DAP_2x_US", "CUP_B_MH60L_DAP_4x_US"]] call _fnc_saveToTemplate;
-["vehiclesHelisAttack", ["CUP_B_AH64D_DL_USA"]] call _fnc_saveToTemplate;
+["vehiclesHelisLight", ["RHS_MELB_MH6M", "RHS_UH60M_d"]] call _fnc_saveToTemplate;
+["vehiclesHelisTransport", ["RHS_UH60M_d", "RHS_CH_47F_10"]] call _fnc_saveToTemplate;
+["vehiclesHelisLightAttack", ["RHS_MELB_AH6M", "CUP_B_MH60L_DAP_4x_US"]] call _fnc_saveToTemplate;
+["vehiclesHelisAttack", ["CUP_B_MH60L_DAP_4x_US", "RHS_AH64D"]] call _fnc_saveToTemplate;
 
 ["vehiclesArtillery", ["rhsusf_m109_usarmy", "RHS_M119_D", "CUP_B_M270_HE_USA"]] call _fnc_saveToTemplate;        // "rhsusf_M142_usarmy_D" - OP until we can customize magazines
 ["magazines", createHashMapFromArray [
