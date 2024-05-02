@@ -23,12 +23,13 @@ _typeUnit = _faction get "unitStaticCrew";
 //New system to place helis, does not care about heli types currently
 private _helicopterTypes = [];
 
-_helicopterTypes append (_faction get "vehiclesHelisLight");
 _helicopterTypes append (_faction get "vehiclesHelisTransport");
+_helicopterTypes append (_faction get "vehiclesHelisLightAttack");
 if (_markerX in airportsX) then
 {
-    _helicopterTypes append (_faction get "vehiclesHelisLightAttack");
     _helicopterTypes append (_faction get "vehiclesHelisAttack");
+} else {
+    _helicopterTypes append (_faction get "vehiclesHelisLight");
 };
 
 private _count = 1 + round (random 3); //Change these numbers as you want, first number is minimum, max is first plus second number
