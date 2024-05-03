@@ -5,6 +5,10 @@ class CfgFunctions {
             class milBuildings {
                 file = QPATHTOFOLDER(Events\CREATE\fn_milBuildings.sqf);
             };
+			
+			class createAIOutposts {
+				file = QPATHTOFOLDER(Events\CREATE\fn_createAIOutposts.sqf);
+			};
         };
     };
 };
