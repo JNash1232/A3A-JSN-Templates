@@ -42,7 +42,7 @@
 
 ["vehiclesHelisLight", ["CUP_B_MH6J_USA", "CUP_B_UH60M_US"]] call _fnc_saveToTemplate;
 ["vehiclesHelisTransport", ["CUP_B_UH60M_US", "CUP_B_MH47E_USA"]] call _fnc_saveToTemplate;
-["vehiclesHelisLightAttack", ["RHS_MELB_AH6M", "CUP_B_MH60L_DAP_4x_US"]] call _fnc_saveToTemplate;
+["vehiclesHelisLightAttack", ["CUP_B_AH6M_USA", "CUP_B_MH60L_DAP_4x_US"]] call _fnc_saveToTemplate;
 ["vehiclesHelisAttack", ["CUP_B_MH60L_DAP_4x_US", "CUP_B_AH64D_DL_USA"]] call _fnc_saveToTemplate;
 
 ["vehiclesArtillery", ["rhsusf_m109_usarmy", "RHS_M119_D", "CUP_B_M270_HE_USA"]] call _fnc_saveToTemplate;        // "rhsusf_M142_usarmy_D" - OP until we can customize magazines
