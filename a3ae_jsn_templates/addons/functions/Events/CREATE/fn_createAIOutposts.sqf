@@ -262,12 +262,16 @@ if (_spawnParameter isEqualType []) then
 			_faction get "vehiclesMilitiaTrucks"
 		};
 
+		diag_log text _types;
+		diag_log text (count _types);
+
 		if (count _types == 0) then { _types = (_faction get "vehiclesCargoTrucks") };
 		selectRandom _types;
 	};
 	isNil {
 		_veh = createVehicle [_typeVehX, (_spawnParameter select 0), [], 0, "CAN_COLLIDE"];
 		_veh setDir (_spawnParameter select 1);
+		diag_log text "is nil";
 	};
 	_vehiclesX pushBack _veh;
 	[_veh, _sideX] call A3A_fnc_AIVEHinit;
